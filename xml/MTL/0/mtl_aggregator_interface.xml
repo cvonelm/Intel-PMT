@@ -17,20 +17,6 @@
 			</TransFormParameters>
 			<transform>$parameter_0 / 38.4 * 1e6 </transform>
 		</TransFormation>
-		<TransFormation name="pkgc_wake_cause" transformID="pkgc_wake_cause">
-			<output_dataclass>float</output_dataclass>
-			<TransFormParameters>
-				<parameterName>parameter_0</parameterName>
-			</TransFormParameters>
-			<transform>$parameter_0 / PACKAGE_CSTATE_WAKE_REFCNT * 100 </transform>
-		</TransFormation>
-		<TransFormation name="pkgc_block_cause" transformID="pkgc_block_cause">
-			<output_dataclass>float</output_dataclass>
-			<TransFormParameters>
-				<parameterName>parameter_0</parameterName>
-			</TransFormParameters>
-			<transform>$parameter_0 / PACKAGE_CSTATE_BLOCK_REFCNT * 100 </transform>
-		</TransFormation>
 		<TransFormation name="wp_volts" transformID="wp_volts">
 			<output_dataclass>float</output_dataclass>
 			<TransFormParameters>
